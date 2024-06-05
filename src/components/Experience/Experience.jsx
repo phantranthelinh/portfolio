@@ -16,37 +16,40 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>CSS</h4>
+              <h4>CSS/SCSS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Javascript</h4>
+              <h4>ReactJS/NextJS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstap</h4>
+              <h4>React Native</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Tailwindcss</h4>
+              <h4>Javascript/TypeScript</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>React JS</h4>
+              <h4>Bootstap/Tailwindcss</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Material UI</h4>
+              <h4>MaterialUI</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>AntDesign</h4>
             </article>
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Frontend Development</h3>
-
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
-              <h4>Node JS</h4>
+              <h4>NodeJS</h4>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />

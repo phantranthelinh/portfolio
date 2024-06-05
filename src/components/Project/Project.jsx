@@ -1,5 +1,8 @@
 import React from "react";
 import "./project.css";
+import BlogImage from "../../assets/blog.png"
+import EnglishDirectory from "../../assets/english-directory.png"
+
 const projectList = [
   {
     id: 1,
@@ -11,19 +14,19 @@ const projectList = [
   },
   {
     id: 2,
-    title: "Green Store",
+    title: "Blog",
     description: "",
-    image: "https://i.imgur.com/XqQXQZb.jpg",
+    image: BlogImage,
     github: "",
-    liveDemo: "",
+    liveDemo: "https://pttlinh-blog.vercel.app/",
   },
   {
     id: 3,
-    title: "Green Store",
+    title: "English Directory",
     description: "",
-    image: "https://i.imgur.com/XqQXQZb.jpg",
+    image: EnglishDirectory,
     github: "",
-    liveDemo: "",
+    liveDemo: "https://english-dictionary-neon.vercel.app/",
   },
 ];
 const Project = () => {
@@ -36,8 +39,8 @@ const Project = () => {
           return (
             <article className="project__item" key={pj.id}>
               <div className="project__item-img">
-                <img src={pj.image} alt="project" />
-                <h3>Green Store</h3>
+                <img src={pj.image} alt="project" srcSet="" />
+                <h3>{pj.title}</h3>
                 <div className="project__item-cta">
                   <a
                     href={pj.github}
